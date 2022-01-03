@@ -1,0 +1,50 @@
+[B][COLOR red]Update - v1.18 - March 29, 2021[/COLOR][/B]
+[COLOR yellow]--[/COLOR][I] Removed Marcel's beta repo and AuraMod repo due
+    to recent changes to Marcel's beta repo.[/I]
+
+[B][COLOR red]Update - v1.17 - March 11, 2021[/COLOR][/B]
+[COLOR yellow]--[/COLOR][I] AuraMod repo now set to only show in Kodi Leia.[/I]
+[COLOR yellow]--[/COLOR][I] Updated Jurial Munkey Alpha repo. v1.2 will now only
+    show in Kodi Leia and v2.0 will show in Kodi Matrix.[/I]
+[COLOR yellow]--[/COLOR][I] Silvo repo now set to only show in Kodi Leia.  Silvo skin
+    for Kodi Matrix is only available in official Kodi repo.[/I]
+
+[B][COLOR red]Update - v1.16 - March 07, 2021[/COLOR][/B]
+[COLOR yellow]--[/COLOR][I] Fixed gaff with "script.module.metahandler" still being in
+    Venom's repo.  This caused dependency issue under Leia.
+    Now the new metahandler repo will be used and proper
+    dependent version installed.[/I]
+
+[B][COLOR red]Update - v1.15 - March 06, 2021[/COLOR][/B]
+[COLOR yellow]--[/COLOR][I] Made custom repo of Eldorado's Metahandler to solve
+    install issues between Kodi 18(Leia) and 19(Matrix).
+    Metahandler v3.99.02 is for Leia and v5.0 is for Matrix.[/I]
+
+[B][COLOR red]Update - v1.14 - Jan. 26, 2021[/COLOR][/B]
+[COLOR yellow]--[/COLOR][I] Removed OpenMeta repository as it's been removed
+    from a4k-openproject.[/I]
+[COLOR yellow]--[/COLOR][I] Added a4kstreaming repository.[/I]
+
+[B][COLOR red]Update - v1.13 - Jan. 23, 2021[/COLOR][/B]
+[COLOR yellow]--[/COLOR][I] Added tikipeter repository for Fen.[/I]
+[COLOR yellow]--[/COLOR][I] Fixed nixgate repo for changes to
+    version numbers.[/I]
+[COLOR yellow]--[/COLOR][I] Removed Gaia repo, sorry no longer
+    used here nor has been updated in awhile.[/I]
+[COLOR yellow]--[/COLOR][I] Aeon Nox Silvo repo removed and will
+    now only contain leia version.[/I]
+
+[B][COLOR red]Update - v1.12 - Sept. 26, 2020[/COLOR][/B]
+[COLOR yellow]--[/COLOR][I] fix incorrect version bump.[/I]
+
+[B][COLOR red]Update - v1.9 - Aug 15, 2020[/COLOR][/B]
+[COLOR yellow]--[/COLOR][I] Added AutoWidgets.[/I]
+[COLOR yellow]--[/COLOR][I] Added a4kSubtitles.[/I]
+
+[B][COLOR red]Update - v1.8 - May 24, 2020[/COLOR][/B]
+[COLOR yellow]--[/COLOR][I] Added OpenWizard repository.[/I]
+[COLOR yellow]--[/COLOR][I] Added Auramod repository.[/I]
+
+[B][COLOR red]Update - v1.7 - April 1, 2020[/COLOR][/B]
+[COLOR yellow]--[/COLOR][I] Added gujal-resolveURL to repo since he's taking over
+    for jsergio.[/I]

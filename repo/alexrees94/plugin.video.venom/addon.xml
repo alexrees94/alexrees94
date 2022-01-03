@@ -1,0 +1,42 @@
+<addon id="plugin.video.venom" name="[COLOR red]Venom[/COLOR]" provider-name="Venom" version="6.4.4">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0" />
+		<import addon="context.venom" />
+		<import addon="script.module.myaccounts" version="2.0.0" />
+		<import addon="script.module.fenomscrapers" version="2.0.2" />
+		<import addon="script.module.requests" />
+		<import addon="script.module.beautifulsoup4" />
+		<import addon="script.module.metahandler" optional="true" />
+		<import addon="plugin.video.youtube" optional="true" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="venom.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.service" library="service.py" start="startup" />
+	<extension point="xbmc.python.module" library="resources/lib/" />
+	<extension point="xbmc.addon.metadata">
+		<reuselanguageinvoker>true</reuselanguageinvoker>
+		<summary lang="en">[B][COLOR red]Venom[/COLOR][/B] - We do not host any of the contents streamed</summary>
+		<description lang="en">[B][COLOR red]Venom[/COLOR][/B][CR] This addon does not form part of the Kodi Media Centre. Please do not seek assistance with this addon from any of the Official Kodi Support Channels.[CR]The author does not host any of the content in this addon and takes no responsibility for content found</description>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+		<forum />
+		<website>https://github.com/123Venom/plugin.video.venom</website>
+		<source>https://github.com/123Venom/plugin.video.venom</source>
+		<disclaimer lang="en">The author of this addon does not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+			<screenshot>resources/screenshots/screenshot001.jpg</screenshot>
+			<screenshot>resources/screenshots/screenshot002.jpg</screenshot>
+			<screenshot>resources/screenshots/screenshot003.jpg</screenshot>
+		</assets>
+		<news>
+[B][COLOR red]Update - v6.4.4 - Dec. 28, 2021[/COLOR][/B]
+[COLOR yellow]--[/COLOR][I] Fixed some obscure shows with missing id's that failed to mark as watched and prevented being added to Trakt Progress.[/I]
+[COLOR yellow]--[/COLOR][I] Cache duration has been lowered to 24hrs for seasons that are still airing.  This allows the episode watched and unwatched counts to be more up to date.[/I]
+[COLOR yellow]--[/COLOR][I] The Download context menu option was still showing in the Source Select window if the setting was disabled.  Once again it will only show if the setting is enabled and the folders are setup.[/I]
+
+		</news>
+	</extension>
+</addon>
